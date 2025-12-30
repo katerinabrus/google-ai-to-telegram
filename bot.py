@@ -33,10 +33,12 @@ Content (may be partial/HTML):
 {html_snippet}
 
 Output rules:
-- 4–6 bullet points max
-- then one line: "Why it matters: ..."
+- One sentence: what's actually new (not repeating the title)
+- 4 bullet points max: the most important / surprising / actionable points
+- One line starting with "Зачем читать:" — when the full article is worth opening.
 - no invented facts
-- keep under 900 characters
+- keep under 600 characters
+- Write in Russian. Preserve product names and proper nouns in English.
 """
 
     r = requests.post(
